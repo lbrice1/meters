@@ -1,0 +1,11 @@
+import pandas as pd
+
+class NeuralNetwork:
+    def load_data(path):
+        data = pd.read_csv(path, sep="\t", header=None).dropna()
+
+        print(data.head())
+
+        data = data.to_numpy()
+
+        return data
