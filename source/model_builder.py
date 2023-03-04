@@ -2,7 +2,12 @@
 from sklearn.tree import DecisionTreeClassifier
 import numpy as np
 from sklearn.metrics import accuracy_score
+import sys
+import os
 
+os.chdir("../")
+
+os.getcwd()
 
 from source.data_preprocess import DataPreprocessing
 
