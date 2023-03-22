@@ -4,9 +4,9 @@ with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
 requirements = [
-                "scikit-learn==1.0.2",
-                "scipy==1.8.0",
-                "numpy==1.21.5"
+                "scikit-learn>=1.0.2",
+                "scipy>=1.8.0",
+                "numpy>=1.21.5"
                 ]
 
 setup(
